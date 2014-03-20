@@ -1,0 +1,10 @@
+#ifdef HAVE_LCD_BITMAP
+
+/* Threes */
+#ifdef HAVE_LCD_COLOR
+#if ((LCD_WIDTH >= 128) && (LCD_HEIGHT >= 128))
+threes
+#endif
+#endif /* HAVE_LCD_COLOR */
+
+#endif /* HAVE_LCD_BITMAP */

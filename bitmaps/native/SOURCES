@@ -1,0 +1,13 @@
+#ifdef HAVE_LCD_BITMAP
+
+/* Threes */
+#ifdef HAVE_LCD_COLOR
+#if ((LCD_WIDTH >= 128) && (LCD_HEIGHT >= 128))
+threes_border.11x12x8.bmp
+threes_border_blue.11x12x8.bmp
+threes_border_red.11x12.8.bmp
+threes_numbers_opensans.364x20x8.bmp
+#endif
+#endif /* HAVE_LCD_COLOR */
+
+#endif /* HAVE_LCD_BITMAP */
