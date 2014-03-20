@@ -399,22 +399,28 @@ enum plugin_status plugin_start(const void* parameter) {
     while(!quit) {
         button=rb->button_get(true);
         switch(button) {
-            case THREES_BUTTON_MENU:
+            case THREES_SHUFFLE:
                 init_board();
                 break;
-            case THREES_BUTTON_QUIT:
+            case THREES_QUIT:
                 quit = true;
                 break;
-            case THREES_BUTTON_LEFT:
+            case THREES_LEFT:
                 update_board(0);
                 break;
-            case THREES_BUTTON_RIGHT:
+            case THREES_RIGHT:
                 update_board(1);
                 break;
-            case THREES_BUTTON_DOWN:
+            case THREES_DOWN:
                 update_board(2);
                 break;
-            case THREES_BUTTON_UP:
+            case THREES_UP:
+                update_board(3);
+                break;
+            case THREES_PREV:
+                update_board(2);
+                break;
+            case THREES_NEXT:
                 update_board(3);
                 break;
         }
