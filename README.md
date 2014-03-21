@@ -13,9 +13,12 @@ Threes ported for the free mp3-player replacement firmware Rockbox.
 ###Supported players
 + Players with a color LCD supporting bitmaps and a resolution >= 128x128
 
-### TODO
+###TODO
 + better random card drawing (allowing for a more balanced ratio of red and blue cards on the board)
 + Greyscale and B/W support
 + text-only mode for smaller displays and non bitmap-LCDs
 + menu with playback-controlls
 + Savestates
+
+###Copyright Notice
+[Threes!](http://threesgame.com) is a game for iOS and Android by Asher Vollmer, Greg Wohlwend and Big Giant Circles.
